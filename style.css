@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-solid {
+    position: absolute;
+    left: 15%;
+    top: 2%;
+    font-size: 32px;
+    color: rgb(34, 158, 169);
+}
+
+.topContainerUl {
+    margin-right: 15%;
+}
+
+.topContainerUl li {
+    list-style: none;
+    float: inline-end;
+    margin-right: 5%;
+}
+
+.topContainerUl li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.infoUser {
+    width: 20%;
+    height: 36rem;
+    border: 1px solid rgb(199, 196, 196);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 8px;
+}
+
+.infoUser img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.pictureBox {
+    width: 57%;
+    height: 30%;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.pictureBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.infoUserText {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.infoUserİcons {
+    font-size: 3rem;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+.infoUserİcons a i {
+    color: black;
+}
+
+.userShortBiography {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 42%;
+    font-size: 20px;
+}
+
+.welcomeText {
+    background-image: url(Resimler/images.jpeg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
+}
